@@ -36,8 +36,8 @@ public class TrelloClient {
                 .toUri();
 
         try {
-            TrelloBoardDto[] boardsResponse = restTemplate.getForObject(url, TrelloBoardDto[].class);
-            return Optional.ofNullable(boardsResponse)
+            TrelloBoardDto[] bardsResponse = restTemplate.getForObject(url, TrelloBoardDto[].class);
+            return Optional.ofNullable(bardsResponse)
                     .map(Arrays::asList)
                     .orElse(Collections.emptyList())
                     .stream()
