@@ -4,7 +4,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The application works at the website address: https://stepbart.github.io/
+The application works at: https://stepbart.github.io/
 
 <div align="center">
     <img src="https://github.com/stepbart/Tasks/blob/master/TaskApp.gif">
